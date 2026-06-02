@@ -6,7 +6,7 @@ ChatGPT (OpenAI) was used to:
 - Help generate and organize CRM research content
 - Assist in explaining CRM concepts and architecture
 - Support formatting and structuring of project files
--
+
 ## Tool Reference
 
 OpenAI. (2026). ChatGPT (June 1, 2026 version) [Large language model]. https://chat.openai.com
