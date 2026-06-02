@@ -217,31 +217,31 @@ SuiteCRM was selected for evaluation because a widely used open-source CRM platf
 
 ### Login Screen
 
-Insert screenshot:
+Screenshot:
 
 ![Login Screen](screenshots/login.png)
 
 ### Dashboard
 
-Insert screenshot:
+Screenshot:
 
 ![Dashboard](screenshots/dashboard.png)
 
 ### Contacts Module
 
-Insert screenshot:
+Screenshot:
 
 ![Contacts](screenshots/contacts.png)
 
 ### Leads Module
 
-Insert screenshot:
+Screenshot:
 
 ![Leads](screenshots/leads.png)
 
 ### Reports Module
 
-Insert screenshot:
+Screenshot:
 
 ![Reports](screenshots/reports.png)
 
