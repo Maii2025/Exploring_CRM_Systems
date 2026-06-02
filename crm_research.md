@@ -217,31 +217,31 @@ SuiteCRM was selected for evaluation because a widely used open-source CRM platf
 
 ### Login Screen
 
-Screenshot:
+Insert screenshot:
 
 ![Login Screen](screenshots/login.png)
 
 ### Dashboard
 
-Screenshot:
+Insert screenshot:
 
 ![Dashboard](screenshots/dashboard.png)
 
 ### Contacts Module
 
-Screenshot:
+Insert screenshot:
 
 ![Contacts](screenshots/contacts.png)
 
 ### Leads Module
 
-Screenshot:
+Insert screenshot:
 
 ![Leads](screenshots/leads.png)
 
 ### Reports Module
 
-Screenshot:
+Insert screenshot:
 
 ![Reports](screenshots/reports.png)
 
@@ -277,106 +277,145 @@ Yes. I would recommend SuiteCRM for small and medium-sized organizations because
 
 # Part 4 – AI-Assisted CRM Architecture Exploration
 
+## Introduction
+
+An AI-assisted investigation was conducted to explore how a Customer Relationship Management (CRM) system could be designed using the following technology stack:
+
+### Front-End
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+
+### Server-Side
+- PHP
+
+### Database
+- MySQL
+
+The proposed architecture is based on common design patterns found in commercial CRM platforms and open-source CRM systems such as SuiteCRM.
+
+---
+
 ## Functional Modules
 
-The proposed CRM system should include:
+Based on the research, the CRM system should include the following modules:
 
-* Authentication
-* User Management
-* Contacts Management
-* Leads Management
-* Opportunities Management
-* Activities Tracking
-* Tasks Management
-* Reports
-* Dashboard
+### Authentication & User Management
+- User registration and login
+- Password management
+- Role-based access control
+
+### Contacts Management
+- Store customer information
+- Track communication history
+- Manage contact details
+
+### Leads Management
+- Capture and track potential customers
+- Assign leads to sales representatives
+- Monitor lead status
+
+### Accounts Management
+- Store company and organization information
+- Associate contacts with accounts
+
+### Opportunities Management
+- Track potential sales
+- Monitor sales pipeline stages
+- Forecast revenue
+
+### Activities & Tasks
+- Schedule meetings and calls
+- Create reminders and follow-up tasks
+- Track user activities
+
+### Customer Support Tickets
+- Record customer issues
+- Assign support requests
+- Track ticket status and resolution
+
+### Reports & Dashboards
+- Sales reports
+- Lead conversion reports
+- Customer activity reports
+- Performance dashboards
+
+---
 
 ## Database Design
 
-### Users
+The CRM system would require the following database tables:
 
-Stores user account information.
+| Table | Purpose |
+|---------|---------|
+| Users | Stores user account information |
+| Roles | Defines user permissions and access levels |
+| Contacts | Stores customer contact details |
+| Accounts | Stores organization information |
+| Leads | Stores potential customer records |
+| Opportunities | Stores sales opportunities |
+| Activities | Records meetings, calls, and interactions |
+| Tasks | Stores assigned work items |
+| Tickets | Stores customer support requests |
 
-### Roles
+The database design follows a relational model, allowing information to be linked efficiently while maintaining data integrity.
 
-Stores permissions and role definitions.
-
-### Contacts
-
-Stores customer contact information.
-
-### Accounts
-
-Stores organization information.
-
-### Leads
-
-Stores potential customer records.
-
-### Opportunities
-
-Stores sales opportunities.
-
-### Activities
-
-Stores meetings, calls, and interactions.
-
-### Tasks
-
-Stores assigned activities.
-
-### Tickets
-
-Stores customer support requests.
+---
 
 ## Useful Libraries
 
-| Library    | Purpose                               |
-| ---------- | ------------------------------------- |
-| Bootstrap  | Responsive user interface development |
-| DataTables | Searchable and sortable tables        |
-| Chart.js   | Dashboard charts and analytics        |
-| PHPMailer  | Email functionality                   |
-| Composer   | PHP dependency management             |
+Several libraries can accelerate CRM development:
+
+| Library | Purpose |
+|----------|---------|
+| Bootstrap | Provides responsive layouts and user interface components |
+| DataTables | Adds searching, sorting, and pagination to tables |
+| Chart.js | Creates charts and visual reports |
+| PHPMailer | Sends emails and notifications through PHP |
+| Composer | Manages PHP packages and dependencies |
+
+These libraries reduce development time and improve maintainability.
+
+---
 
 ## Security Considerations
 
 ### Authentication
-
-Require secure login mechanisms and session management.
+Users should authenticate through secure login mechanisms using PHP sessions.
 
 ### Authorization
-
-Implement role-based access control.
+Role-Based Access Control (RBAC) should restrict access based on user roles.
 
 ### Password Security
-
-Store passwords using strong hashing algorithms.
+Passwords should be hashed using secure algorithms such as bcrypt.
 
 ### SQL Injection Prevention
-
-Use prepared statements and parameterized queries.
+Prepared statements and parameterized queries should be used when interacting with the database.
 
 ### Cross-Site Scripting (XSS)
-
-Validate and sanitize user input.
+Input validation and output sanitization should be implemented to prevent malicious scripts.
 
 ### Data Privacy
+Customer information should be protected through secure storage, controlled access, and compliance with privacy regulations.
 
-Protect customer information and comply with privacy regulations.
+---
 
-## MVP Proposal
+## MVP (Minimum Viable Product) Proposal
 
-The minimum viable CRM should include:
+The smallest useful CRM system that could be built in Version 1 would include:
 
-* User login
-* Contact management
-* Lead management
-* Task management
-* Dashboard
-* Basic reporting
+- User authentication
+- Contact management
+- Lead management
+- Task management
+- Basic reporting
+- Dashboard overview
 
-These features provide sufficient functionality for managing customer relationships while keeping development effort manageable.
+Advanced features such as marketing automation, ticketing, and AI-powered analytics could be added in future versions.
+
+---
 
 ## Architecture Diagram
 
@@ -386,19 +425,26 @@ These features provide sufficient functionality for managing customer relationsh
 +--------------------+
            |
            v
-+--------------------+
-| HTML/CSS/JS        |
-| Bootstrap/jQuery   |
-+--------------------+
++------------------------------+
+| HTML / CSS / JavaScript      |
+| Bootstrap / jQuery           |
++------------------------------+
            |
            v
-+--------------------+
-| PHP Application    |
-| Business Logic     |
-+--------------------+
++------------------------------+
+| PHP Application Layer        |
+| Business Logic & Processing  |
++------------------------------+
            |
            v
-+--------------------+
-| MySQL Database     |
-+--------------------+
++------------------------------+
+| MySQL Database               |
+| Data Storage & Retrieval     |
++------------------------------+
 ```
+
+---
+
+## Conclusion
+
+The research indicates that a modular three-tier architecture provides a scalable and maintainable foundation for CRM development. Using HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL allows organizations to build a cost-effective CRM system that supports customer management, sales tracking, reporting, and security requirements. The proposed architecture follows common industry practices and can be expanded as business needs grow.
