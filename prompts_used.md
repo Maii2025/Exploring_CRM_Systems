@@ -55,15 +55,14 @@ It explained key security topics such as authentication, SQL injection, XSS, and
 ### What AI did well
 - Explained technical concepts clearly
 - Helped structure the assignment
-- Generated diagrams and system ideas
-- Saved time in research and writing
+- Generated diagrams
+- well organized format 
 
 ---
 
 ### What AI struggled with
 - Sometimes gave general answers instead of detailed system-specific solutions
 - Required human verification for accuracy
-- Could oversimplify complex real-world systems
 
 ---
 
@@ -76,7 +75,7 @@ It explained key security topics such as authentication, SQL injection, XSS, and
 
 ### What surprised me
 - How fast AI can generate structured technical reports
-- How useful AI is for system design and architecture planning
+- generate images with better quality 
 
 ---
 
@@ -88,7 +87,7 @@ It explained key security topics such as authentication, SQL injection, XSS, and
 
 ### Would I trust AI for software research?
 
-AI is useful for learning and early-stage research, but it should not be fully trusted without verification. It is best used as a support tool, while important technical information should be confirmed using reliable sources.
+AI is useful for learning and research, but it should not be fully trusted without verification.
 
 ---
 
