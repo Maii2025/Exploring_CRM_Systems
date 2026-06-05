@@ -80,7 +80,6 @@ It explained key security topics such as authentication, SQL injection, XSS, and
 ---
 
 ### What I would do differently next time
-- Cross-check more information using official documentation
 - Ask follow-up questions instead of one-time prompts
 
 ---
